@@ -2,6 +2,10 @@
 title: Home
 ---
 
-# Welcome to my blog!
+# Welcome to my website!
 
-I'm using this blog to write down and track my progress with my projects and interests.
+This is a space for me to write down my notes, updates, and some blogs as I work through my personal projects.
+
+## Blogs 
+- [[Typed Actor System]]
+
