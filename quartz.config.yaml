@@ -44,6 +44,8 @@ plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
+      enableInteraction: false
+      exportPadding: 20
       defaultDateType: modified
       priority:
         - frontmatter
@@ -267,6 +269,13 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
+  - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
       enableInteraction: true

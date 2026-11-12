@@ -1,3 +1,28 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* Target any transcluded Excalidraw file by its URL path */
+blockquote.transclude[data-url*="excalidraw" i] {
+  border-left: none !important;
+  padding-left: 0 !important;
+  margin: 1.5rem 0;
+  background: transparent !important;
+
+  /* Hide the title/link heading at the top */
+  > a.transclude-src,
+  > h1:first-child,
+  > p:first-child:has(> a) {
+    display: none !important;
+  }
+
+  /* Constrain the diagram height so it looks like an inline image */
+  svg,
+  iframe,
+  > div {
+    max-height: 450px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
