@@ -268,18 +268,18 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
-    options:
-      enableInteraction: true
-      darkMode: auto
-      exportPadding: 20
-    order: 50
+  # - source: "@quartz-community/obsidian-plugin-excalidraw"
+  #   enabled: true
+  #   options:
+  #     enableInteraction: false
+  #     darkMode: light
+  #     exportPadding: 20
+  #   order: 50
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
-      enableInteraction: true
-      darkMode: auto
+      enableInteraction: false
+      darkMode: false
       exportPadding: 20
     order: 50
 layout:

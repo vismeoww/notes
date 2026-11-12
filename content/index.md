@@ -7,7 +7,7 @@ title: Home
 This is a space for me to write down my notes, updates, and some blogs as I work through my personal projects.
 
 ## Blogs 
-- [[Autograd Explained]]
-- [[Anatomy of a Linux executable]]
-- [[Typed Actor System]]
+- [[blogs/Autograd Explained/index|Autograd Explained]]
+- [[blogs/Anatomy of a Linux executable/index|Anatomy of a Linux executable]]
+- [[blogs/Typed Actor System/index|Typed Actor System]]
 
