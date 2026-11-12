@@ -26,3 +26,8 @@ blockquote.transclude[data-url*="excalidraw" i] {
     margin: 0 auto;
   }
 }
+
+// latex 
+.katex-display {
+  font-size: 1.5em !important; // Default is usually ~1.21em
+}
