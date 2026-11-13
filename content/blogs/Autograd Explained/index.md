@@ -13,5 +13,5 @@ where $W$ is the weight matrix, $x$ is the input, $b$ is the bias and $\sigma$ i
 if there are two layers to the neural network then we will write 
 $$
 y_1 = \sigma(W_1x + b_1)\\
-y_2 = \sigma(W_2x + b_2)
+y_2 = \sigma(W_2y_1 + b_2)
 $$
