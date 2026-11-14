@@ -11,3 +11,5 @@ This is a space for me to write down my notes, updates, and some blogs as I work
 - [[blogs/Anatomy of a Linux executable/index|Anatomy of a Linux executable]]
 - [[blogs/Typed Actor System/index|Typed Actor System]]
 
+## Notes
+- [[notes/Category Theory/index|Category Theory]]

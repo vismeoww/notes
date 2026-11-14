@@ -1,3 +1,6 @@
+
+> [!warning] Work in Progress: This post is currently incomplete and still being drafted. Check back soon for updates!
+
 Whenever I have built an executable using C, C++, Rust, I have always wondered. It's just a file! how does the computer know what to do with it? where does all the instructions go? what about things like standard libraries? Things such as `printf` and `scanf` do we include their code as well on every binary that's made? If not how does the computer know how to execute this functions? 
 
 With all of those questions I decided to see how an `elf` format is structured. 
